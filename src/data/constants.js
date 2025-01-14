@@ -16,7 +16,7 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am an enthusiastic and adaptable professional, consistently ready to embrace new challenges. Disciplined and a fast learner, I am willing to acquire any necessary skills to succeed.Driven by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a growth-oriented mindset, I am eager to contribute meaningfully and achieve remarkable accomplishments.",
+    "I am an enthusiastic and adaptable professional, consistently ready to embrace new challenges. Disciplined and a fast learner, I am willing to acquire any necessary skills to succeed. Driven by a passion for continuous learning, I am committed to delivering exceptional results. With a positive outlook and a growth-oriented mindset, I am eager to contribute meaningfully and achieve remarkable accomplishments.",
   github: "https://github.com/TheDeadSlayer",
   resume:
     "https://drive.google.com/file/d/1VBKIfotvn72zarSeSSyGXUBwR_68YK72/view?usp=sharing",
