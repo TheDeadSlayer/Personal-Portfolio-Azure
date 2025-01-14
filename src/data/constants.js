@@ -396,7 +396,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://caldo.ca/wp-content/uploads/2024/03/uottawa-logo.png",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGROsUSkCXVVVYA6Yxip0V6fd8d9QLE9wcpA&s",
     school: "University of Ottawa",
     date: "Sept 2023 - Present",
     grade: "10/10 cGPA",
