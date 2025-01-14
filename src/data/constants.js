@@ -1,3 +1,10 @@
+import Secura from "../images/secure.png"
+import Porto from "../images/Port.png"
+import Post from "../images/Poster-Server_Observer.png"
+import Sg from "../images/SG.png"
+import Covid from "../images/covid.png"
+import Dollars from "../images/Dollars.png"
+import I2l from "../images/i2l.png"
 export const Bio = {
   name: "Mahmoud Mohamed",
   roles: [
@@ -86,6 +93,12 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/768px-Bash_Logo_Colored.svg.png?20180723054350",
       },
+      {
+        name: "GoLang",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/1200px-Go_Logo_Blue.svg.png",
+      },
+
       {
         name: "CI/CD",
         image:
@@ -316,11 +329,11 @@ export const experiences = [
   },
   {
     id: 0,
-    img: "https://web.hakeemmed.com/wp-content/uploads/elementor/thumbs/logohd-1-qw2rd3h09h8tu94yzl3tqtvxjkjg2w5diu8cmns8vw.png",
-    role: "API DevOps Engineer",
-    company: "Hakeem Med Qatar",
-    date: "April 2024 - Jan 2025",
-    desc: "Worked on implementing CI/CD pipelines, reducing deployment time by 48%, and designed REST APIs for health insurance claims that supported over 200K users with 99% uptime. I containerized applications, decreasing resource usage by 53%, and integrated health insurance APIs for hospitals, accelerating claims processing by 27%. These efforts enhanced system efficiency and streamlined operations across platforms",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRScrDBZ3GZdH22ZTBf5EEHqDkmGkKWUlLZNA&s",
+    role: "DevOps Engineer",
+    company: "Techno Blue WLL",
+    date: "Jan 2024 - Jan 2025",
+    desc: "Worked on deploying CI/CD pipelines for the platform, reducing deployment time by 48%. Developed and tested REST APIs for e-commerce services, supporting over 200K users with 99% uptime. Additionally, containerized applications, decreasing resource usage by 53% and enhancing scalability, and optimized infrastructure using Terraform IaC to ensure consistent and repeatable deployments.",
     skills: [
       "Jenkins",
       "Docker",
@@ -353,7 +366,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "https://res.cloudinary.com/protenders/image/upload/s--vWvnaP_E--/c_limit,d_default_logo,dpr_auto,f_auto,fl_progressive:semi,q_auto:eco,w_auto:100/7b93cc1a787edf21e39f9804c17536cd.png",
     role: "IT Support Technician Intern",
     company: "HBK",
     date: "Jul 2019 - Sep 2019",
@@ -402,37 +415,316 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Secura365 Ssmart Home Security System",
-    date: "Jun 2023 - Jul 2023",
+    title: "Secura365: Smart Home Security System",
+    date: "Oct 2022 - Jul 2023",
     description:
-      "Security system",
+      "The Smart Security Surveillance System is an integrated solution combining AI, MQTT communication, and mobile technology to provide real-time monitoring and control. At its core, the system leverages YOLOv4 AI models deployed on an Nvidia Jetson Nano for advanced human detection and intrusion detection, achieving an impressive 95% detection rate. Additional features include camera streaming and hardware control via Raspberry Pi, all seamlessly managed through a mobile application. The project involved setting up CI/CD pipelines for automated deployments, containerizing components to ensure consistent environments, and integrating Agile methodologies to streamline collaboration and development. By combining cutting-edge AI with robust hardware and software integration, the system offers a highly efficient and scalable solution for real-time security surveillance.",
     image:
-      "",
+      Secura,
+    tags: [
+      "Computer Vision",
+      "TensorRT",
+      "Tensorflow",
+      "Docker",
+      "Human Detetction",
+      "AWS",
+      "Python",
+      "Raspberry Pi",
+      "YOLO",
+      "Jetson Nano",
+      "CI/CD",
+      "ReactJs",
+      "MQTT",
+      "NodeJs",
+      "Arduino",
+      "Z-Wave",
+    ],
+    category: ["devops","ml"],
+    github: "https://github.com/TheDeadSlayer/Smart-Surveillance-System",
+    webapp: "",
+  },
+
+  {
+    id: 1,
+    title: "Pesonal Portifolio Azure",
+    date: "Oct 2022 - Jul 2023",
+    description:
+      "The Personal Portfolio Website is a ReactJS-based platform designed to showcase my skills, projects, and professional experiences as a web developer. The website, hosted on Azure Cloud, ensures high availability and scalability. It features sections for About Me, Projects, Skills, Resume, and a Contact Form, providing a comprehensive view of my expertise. I implemented CI/CD pipelines using Azure DevOps, automating builds and deployments to reduce deployment time by 72% and ensuring seamless updates for continuous improvement. The portfolio reflects a blend of modern design, responsive layouts, and efficient workflows.",
+    image:
+      Porto,
+    tags: [
+      "Azure Cloud",
+      "Azure DevOps",
+      "JavaScript",
+      "ReactJs",
+      "NodeJs",
+      "HTML",
+      "CSS",
+      "CI/CD",
+    ],
+    category: "devops",
+    github: "https://github.com/TheDeadSlayer/Personal-Portfolio-Azure",
+    webapp: "",
+  },
+
+  {
+    id: 2,
+    title: "AWS Terraform Automation",
+    date: "Mar 2023 - Jul 2023",
+    description:
+      "This project involved deploying a containerized  web application on AWS using Terraform to automate the provisioning of 10+ web servers, reducing deployment time by 82%. I built a scalable and resilient infrastructure leveraging AWS services like EC2, S3, and RDS, and implemented CI/CD pipelines to streamline updates, accelerating release cycles by 35%. Additionally, I configured load balancing and auto-scaling, ensuring 99.99% uptime and robust performance under varying traffic loads.",
+    image:
+      "https://www.digitalcorner-wavestone.com//wp-content/uploads/2024/04/1675117297-products-og-img-terraform.png",
     tags: [
       "Docker",
       "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
+      "Terrafrom",
+      "Scripting",
+      "ReactJs",
+      "NodeJs",
+      "HTML",
+      "CSS",
       "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
     ],
-    category: "web app android app machine learning",
-    github: "",
+    category: "devops",
+    github: "https://github.com/TheDeadSlayer/AWS-SG-RoundTable",
     webapp: "",
-    member: [
-      {
-        name: "Mahmoud Mohamed",
-        img: "",
-        linkedin: "",
-        github: "",
-      },]
   },
-  
+
+  {
+    id: 3,
+    title: "Simple Linux Shell",
+    date: "May 2022 - Jun 2022",
+    description:
+      "Developed a custom Linux shell in C, featuring pipes for efficient execution of command sequences and command redirection for managing input and output streams. This project demonstrated core system-level programming skills and a strong understanding of operating system concepts.",
+    image:
+      "https://i.ytimg.com/vi/iJq7656jjps/maxresdefault.jpg",
+    tags: [
+      "Linux",
+      "Shell Scripting",
+      "C/C++",
+    ],
+    category: "devops",
+    github: "https://github.com/rogitson/simple-shell",
+    webapp: "",
+  },
+
+  {
+    id: 4,
+    title: "Server Status Checker",
+    date: "May 2022 - Jun 2022",
+    description:
+      "The Ultimate Server Status Checker is a comprehensive tool designed for monitoring server connections and performance, featuring a secure HTTPS server, a status checker, and an Android application as the user interface. The system integrates Node.js for the server, secured using certbot and Let's Encrypt, which continuously updates its uptime to a Firebase Realtime Database. The status checker utilizes Python scripts to monitor server connectivity, track packet loss, and notify users via email if the server is down. It also measures server performance metrics like CPU utilization, memory usage, and temperature, forwarding these to the database. The Android app provides a dynamic interface, offering real-time insights into server status and performance through interactive dashboards and speedometers. This project combines efficient server monitoring, real-time updates, and a user-friendly mobile interface to deliver a robust solution for server management.",
+    image:
+      Post,
+    tags: [
+      "Python",
+      "JavaScript",
+      "DDNS",
+      "FireBase",
+      "NodeJS",
+      "Kotlin",
+      "CSS",
+    ],
+    category: "others",
+    github: "https://github.com/TheDeadSlayer/Ultimate-Server-Status-Checker",
+    webapp: "",
+  },
+
+  {
+    id: 5,
+    title: "Voice Gender Classification",
+    date: "Jan 2024 - May 2024",
+    description:
+      "The Voice-Gender-Classification project implements a pipeline for gender detection using voice samples from the Voice Gender Detection dataset. It employs acoustic features like Mel Frequency Cepstral Coefficients (MFCCs) and Mel Spectrograms to classify voices as male or female. The approach compares traditional machine learning models such as Gradient Boosting and Random Forest with a custom Convolutional Neural Network (CNN) architecture for better performance. The project achieves 89.76% accuracy using Gradient Boosting and enhances the CNN model to reduce overfitting. Future work focuses on data augmentation, improved CNN architectures, and dataset diversity.",
+    image:
+      "https://daily.jstor.org/wp-content/uploads/2021/10/how_to_hear_images_and_see_sounds_1050x700.jpg",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Jupyter",
+      "Keras",
+      "Google Colab",
+      "Deep Learning",
+      "Signal Processing",
+      "Feature Extraction ",
+      "CNN",
+    ],
+    category: "ml",
+    github: "https://github.com/TheDeadSlayer/Voice-Gender-Classification",
+    webapp: "",
+  },
+
+  {
+    id: 6,
+    title: "Flu Shot Learning",
+    date: "Feb 2023 - Jul 2023",
+    description:
+      "The Flu Shot Learning project focuses on predicting the likelihood of individuals receiving H1N1 and seasonal flu vaccinations, using insights from behavioral, social, and economic factors. The model leverages data from the National 2009 H1N1 Flu Survey, incorporating 35 features such as demographics and health behavior. Machine learning algorithms like Random Forest, KNeighbors, and Neural Networks were used to predict vaccination uptake, achieving an ROC AUC of 85.32%. Key tasks included handling missing data, encoding features, and fine-tuning hyperparameters for optimal performance. Future directions include exploring advanced models like CatBoost and Convolutional Neural Networks for further improvement.",
+    image:
+      "https://drivendata-prod-public.s3.amazonaws.com/comp_images/flu-shot-learning.jpg",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Jupyter",
+      "Keras",
+      "Google Colab",
+      "Deep Learning",
+      "Feature Engineering and Encoding",
+      "Neural Networks",
+      "CNN",
+    ],
+    category: "ml",
+    github: "https://github.com/TheDeadSlayer/Flu-Shot-Learning",
+    webapp: "",
+  },
+
+  {
+    id: 7,
+    title: "Retinal Disease Classification",
+    date: "Sep 2022 - Feb 2023",
+    description:
+      "The Retinal Disease Classification project utilizes deep learning techniques, specifically convolutional neural networks (CNNs), to classify retinal images into various disease categories. Using a labeled dataset of retinal images, the project focuses on preprocessing steps such as resizing and normalizing the images to ensure consistency. The CNN model extracts features from these images for classification, and its performance is evaluated using accuracy, precision, recall, and F1 score. The primary goal of this project is to assist ophthalmologists in the early detection and diagnosis of retinal diseases, improving diagnostic workflows.",
+    image:
+      "https://www.frontiersin.org/files/Articles/1290803/fnins-17-1290803-HTML/image_m/fnins-17-1290803-g001.jpg",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Model Evaluation",
+      "Jupyter",
+      "Keras",
+      "Google Colab",
+      "Deep Learning",
+      "Computer Vision",
+      "Neural Networks",
+      "CNN",
+    ],
+    category: "ml",
+    github: "https://github.com/TheDeadSlayer/Retinal-Disease-Classification",
+    webapp: "",
+  },
+
+  {
+    id: 8,
+    title: "RPS Gestures Classification",
+    date: "Sep 2022 - Feb 2023",
+    description:
+      "The Classification of Rock-Paper-Scissors Gestures project uses computer vision and feature engineering to classify hand gestures into rock, paper, or scissors, based on the Rock-Paper-Scissors Images dataset from Kaggle. The project employs preprocessing techniques such as greyscale conversion, resizing, and background removal, combined with feature engineering methods like edge detection and contour extraction. Machine learning models, including Random Forest, Decision Trees, and Gradient Boosting, are utilized to achieve up to 93% accuracy. Additionally, the project features an interactive Rock-Paper-Scissors game that predicts gestures and simulates the game outcomes.",
+    image:
+      "https://storage.googleapis.com/kaggle-datasets-images/107582/256559/14accfe0345e7cd534eaff2a9658a4cf/dataset-card.png?t=2019-01-19-17-16-51",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Model Evaluation",
+      "Jupyter",
+      "Keras",
+      "Google Colab",
+      "Feature Engineering",
+      "Computer Vision",
+      "Random Forest",
+    ],
+    category: "ml",
+    github: "https://github.com/TheDeadSlayer/RPS-Classification",
+    webapp: "",
+  },
+
+  {
+    id: 9,
+    title: "Single-Server-Queue-Simulation-Using-Blum-Blum-Shub-Generator",
+    date: "Sep 2023 - Jan 2024",
+    description:
+      "The Single-Server-Queue-Simulation-Using-Blum-Blum-Shub-Generator project explores an innovative approach to managing waiting lines in queueing systems by enhancing the classic M/M/1 queueing model with the Blum-Blum-Shub pseudorandom number generator. This integration, called the M/M/1-BBS model, aims to optimize queue management and reduce waiting times. The project applies concepts from a recent paper on queueing systems, leveraging this advanced technique to enhance the classical model and improve efficiency in queue management scenarios.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuKjdkC34GfRN5eIc2b194SgOgse6DkqS2mQ&s",
+    tags: [
+      "Python",
+      "Queueing Theory",
+      "Simulation Modeling",
+      "Jupyter",
+      "Pseudorandom Number Generation",
+    ],
+    category: "ml",
+    github: "https://github.com/TheDeadSlayer/Single-Server-Queue-Simulation-Using-Blum-Blum-Shub-Generator",
+    webapp: "",
+  },
+
+  {
+    id: 10,
+    title: "S;G RoundTable Text and Video Chat Web App",
+    date: "Feb 2023 - Jul 2023",
+    description:
+      "The project involved developing a React-based single-page application with a responsive and user-friendly interface. Firebase was integrated to manage the real-time database and ensure secure user authentication. Additionally, WebRTC was implemented to enable seamless text and video communication, enhancing the app's interactivity and functionality for users.",
+    image:
+      Sg,
+    tags: [
+      "JavaScript",
+      "NodeJs",
+      "ReactJs",
+      "WebRTC",
+      "Firebase",
+    ],
+    category: "other",
+    github: "https://github.com/TheDeadSlayer/Steins-Gate-Round-Table",
+    webapp: "",
+  },
+
+  {
+    id: 11,
+    title: "Covid-19 Tracking App",
+    date: "May 2021 - Jun 2021",
+    description:
+      "The Covid-Tracking-Application is an Android application designed to track the health status of Covid-19 patients through an SQL database. It allows patients to check their latest PCR test results, vaccination status, locate the nearest health centers, call emergency hotlines, and stay informed about the latest regulations. The app connects to the SQL database via PHP, while the admin side is accessed through a web view of phpMyAdmin, hosted locally, to manage and view the data.",
+    image:
+      Covid,
+    tags: [
+      "Android",
+      "PHP",
+      "MySql",
+      "Java",
+      "UI/UX",
+    ],
+    category: "other",
+    github: "https://github.com/TheDeadSlayer/Covid-Tracking-Application",
+    webapp: "",
+  },
+
+  {
+    id: 12,
+    title: "Dollars Chat Desktop App",
+    date: "Oct 2020 - Jan 2021",
+    description:
+      "The Dollars-Chat project is a desktop chat application inspired by the chat client in the popular show Durarara!!. It features three main user tiers: Dollar (free basic tier with sign-up code), Premium (offers avatars and colors with card info), and Admin (providing administrator privileges with a unique admin code). Multiple clients can connect to the server simultaneously via TCP. From the server side, admins can view message histories, manage user connections, and access the SQL database for further control. The project also includes a secret hidden easter egg, adding an extra layer of fun.",
+    image:
+      Dollars,
+    tags: [
+      "TCP/IP Networking",
+      "PHP",
+      "MySql",
+      "Server-side Management",
+    ],
+    category: "other",
+    github: "https://github.com/TheDeadSlayer/Dollars-Chat",
+    webapp: "",
+  },
+
+  {
+    id: 13,
+    title: "I2L T Flip-Flop Circuit Design",
+    date: "Apr 2021 - Jun 2021",
+    description:
+      "The Edge-Triggered T-Flip-Flop project involves designing a T Flip-Flop circuit using Integrated Injection Logic (I2L), a bi-stable multivibrator. The circuit is simulated using Multisim, which produces accurate results for the T Flip-Flop behavior. Additionally, a PCB design of the circuit is provided in Ultiboard format, allowing for physical production. The project includes a detailed report outlining the necessary steps to create the circuit, including the parts and procedures required for successful implementation.",
+    image:
+      I2l,
+    tags: [
+      "Circuit Design",
+      "Integrated Injection Logic (I2L)",
+      "PCB Design",
+      "Multisim",
+    ],
+    category: "other",
+    github: "https://github.com/TheDeadSlayer/Edge-Triggered-T-Flip-Flop",
+    webapp: "",
+  },
 ];
 
 
