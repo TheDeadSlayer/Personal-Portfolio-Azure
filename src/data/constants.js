@@ -88,6 +88,12 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/ansible-icon-2048x2048-mc4z634w.png",
       },
+
+      {
+        name: "Prometheus",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/800px-Prometheus_software_logo.svg.png",
+      },
       {
         name: "Shell Scripting",
         image:
