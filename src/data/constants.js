@@ -293,6 +293,11 @@ export const skills = [
           "https://static-00.iconduck.com/assets.00/netlify-icon-2048x2048-vn9f0x8q.png",
       },
       
+      {
+        name: "Vercel",
+        image:
+          "https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/apple-touch-icon-256x256.png",
+      },
       
       {
         name: "Jira",
