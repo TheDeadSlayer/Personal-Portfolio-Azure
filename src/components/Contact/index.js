@@ -92,6 +92,7 @@ const ContactInput = styled.input`
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
+  resize: none;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
@@ -118,6 +119,22 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+    cursor: pointer; 
+  transition: background 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+    &:hover {
+    opacity: 0.9;
+    transform: translateY(-2px); 
+  }
+
+  &:active {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+
+  &:focus {
+    outline: 2px solid ${({ theme }) => theme.primary};
+    outline-offset: 2px;
+  }
 `
 
 
@@ -130,7 +147,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_6l4mqho', 'template_2m8xvy5', form.current, 'e3POfyS3WK9gc05sY')
       .then((result) => {
         setOpen(true);
         form.current.reset();
