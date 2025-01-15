@@ -654,7 +654,7 @@ export const projects = [
       "Jupyter",
       "Pseudorandom Number Generation",
     ],
-    category: "ml",
+    category: "other",
     github: "https://github.com/TheDeadSlayer/Single-Server-Queue-Simulation-Using-Blum-Blum-Shub-Generator",
     webapp: "",
   },
