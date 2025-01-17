@@ -527,6 +527,27 @@ export const projects = [
 
   {
     id: 4,
+    title: "Bash LAMP Deployment Automation",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "In this project, I deployed a sample e-commerce application on a LAMP stack (Linux, Apache, MySQL, PHP) using CentOS and automated the entire deployment process.I implemented scripts to configure the LAMP stack, deploy application code, and initialize the database seamlessly. This automation ensured consistent, efficient, and scalable provisioning of the application across environments, reducing manual effort and improving deployment reliability. The project showcases my expertise in system administration, scripting, and automating infrastructure deployments.",
+    image:
+      "https://lamp.sh/usr/uploads/lamp.png",
+    tags: [
+      "Linux",
+      "Shell Scripting",
+      "PHP",
+      "MariaDB",
+      "Apache",
+      "CentOS",
+    ],
+    category: "devops",
+    github: "https://github.com/TheDeadSlayer/Ecommerce-LAMP-Deployment-Automation",
+    webapp: "",
+  },
+
+  {
+    id: 10,
     title: "Server Status Checker",
     date: "May 2022 - Jun 2022",
     description:
@@ -548,7 +569,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 11,
     title: "Voice Gender Classification",
     date: "Jan 2024 - May 2024",
     description:
@@ -572,7 +593,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 12,
     title: "Flu Shot Learning",
     date: "Feb 2023 - Jul 2023",
     description:
@@ -596,7 +617,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 13,
     title: "Retinal Disease Classification",
     date: "Sep 2022 - Feb 2023",
     description:
@@ -621,7 +642,7 @@ export const projects = [
   },
 
   {
-    id: 8,
+    id: 14,
     title: "RPS Gestures Classification",
     date: "Sep 2022 - Feb 2023",
     description:
@@ -645,7 +666,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 15,
     title: "Single-Server-Queue-Simulation-Using-Blum-Blum-Shub-Generator",
     date: "Sep 2023 - Jan 2024",
     description:
@@ -665,7 +686,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 16,
     title: "S;G RoundTable Text and Video Chat Web App",
     date: "Feb 2023 - Jul 2023",
     description:
@@ -685,7 +706,7 @@ export const projects = [
   },
 
   {
-    id: 11,
+    id: 17,
     title: "Covid-19 Tracking App",
     date: "May 2021 - Jun 2021",
     description:
@@ -705,7 +726,7 @@ export const projects = [
   },
 
   {
-    id: 12,
+    id: 18,
     title: "Dollars Chat Desktop App",
     date: "Oct 2020 - Jan 2021",
     description:
@@ -724,7 +745,7 @@ export const projects = [
   },
 
   {
-    id: 13,
+    id: 19,
     title: "I2L T Flip-Flop Circuit Design",
     date: "Apr 2021 - Jun 2021",
     description:
