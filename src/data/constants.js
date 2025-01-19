@@ -332,7 +332,7 @@ export const experiences = [
     role: "DevOps Engineer Intern",
     company: "LCS (Lawyer Conveyance System)",
     date: "Jan 2025 - Present",
-    desc: "",
+    desc: "Designing and implementing CI/CD pipelines using Azure DevOps, reducing deployment time by 32%, while automating infrastructure provisioning with Terraform to deploy scalable React.js applications. Deploying a React.js app on Azure App Service, ensuring 99.9% uptime with reliable and scalable infrastructure, and deploying a containerized Node.js API to facilitate seamless connections between 1000+ property owners, buyers, and lawyers.",
     skills: [
       "Azure",
       "Azure DevOps",
