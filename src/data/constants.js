@@ -527,6 +527,27 @@ export const projects = [
 
   {
     id: 4,
+    title: "Azure Deployment with Terraform and Azure DevOps",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "Designed and deployed the Employee Management Application on Azure Cloud using Terraform for infrastructure as code. Provisioned Azure resources, including web apps for frontend and backend, an Azure Container Registry for Dockerized backend images, a PostgreSQL Flexible Server, and blob storage for frontend builds. Automated the deployment of infrastructure, frontend, and backend using Azure DevOps Pipelines, ensuring streamlined and repeatable CI/CD workflows. This project showcases modern cloud-native deployment practices with scalable and secure infrastructure.",
+    image:
+      "https://external-preview.redd.it/Cmf7iR8v_HAtZOvDKaPFWJuKHqbRRerFGUy69gwblLk.jpg?width=640&crop=smart&auto=webp&s=1791ad014da862957098f6fd369e81626f2d165a",
+    tags: [
+      "DevOps",
+      "Azure Cloud",
+      "Terrafrom",
+      "Azure DevOps",
+      "CI/CD",
+      "Docker",
+    ],
+    category: "devops",
+    github: "https://github.com/TheDeadSlayer/Azure-Terraform-Automation",
+    webapp: "",
+  },
+
+  {
+    id: 5,
     title: "Bash LAMP Deployment Automation",
     date: "Dec 2024 - Jan 2025",
     description:
@@ -543,6 +564,27 @@ export const projects = [
     ],
     category: "devops",
     github: "https://github.com/TheDeadSlayer/Ecommerce-LAMP-Deployment-Automation",
+    webapp: "",
+  },
+
+  {
+    id: 6,
+    title: "Employee Management Application",
+    date: "Dec 2024 - Jan 2025",
+    description:
+      "Developed a full-stack React + Vite + TypeScript application for managing employee data, featuring pages for adding and retrieving employee information. The backend, built with Express.js, integrates seamlessly with a PostgreSQL database for secure and efficient data storage. The entire backend was Dockerized, ensuring portability and scalability. This project serves as a foundation for learning and implementing modern full-stack development with type safety and containerization.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvrT-YPkiwgCUUi_gbajHIPEb5mICJibZgpQ&s",
+    tags: [
+      "React",
+      "TypeScript",
+      "ExpressJS",
+      "PostgreSQL",
+      "Vite",
+      "JavaScript",
+    ],
+    category: "others",
+    github: "https://github.com/TheDeadSlayer/Simple-React-TS-App",
     webapp: "",
   },
 
