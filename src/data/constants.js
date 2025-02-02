@@ -43,6 +43,11 @@ export const skills = [
           "https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png",
       },
       {
+        name: "Terragrunt",
+        image:
+          "https://canada1.discourse-cdn.com/flex031/uploads/gruntwork/original/1X/451c24614aece67849fd62d0432d77ecd00735c6.png",
+      },
+      {
         name: "Azure",
         image:
           "https://swimburger.net/media/ppnn3pcl/azure.png",
